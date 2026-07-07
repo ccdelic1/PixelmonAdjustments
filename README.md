@@ -1,2 +1,5 @@
-# PixelmonAdjustments
-This Minecraft sidemod changes aspects of Pixelmon for balancing/QOL reasons.
+https://modrinth.com/mod/
+
+Made by CCDelic
+
+Support the pixelmon mod here: https://pixelmonmod.com/
