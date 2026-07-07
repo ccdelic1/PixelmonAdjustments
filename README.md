@@ -1,4 +1,4 @@
-https://modrinth.com/mod/
+https://modrinth.com/mod/pixelmon-ccs-adjustments
 
 Made by CCDelic
 
