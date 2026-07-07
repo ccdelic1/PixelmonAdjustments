@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.ccdelic.tweaks.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "FlatDistinctAlgorithmMixin",
+        "OpenShopInteractionResultMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

@@ -1,0 +1,39 @@
+# NeoForge mod metadata for Pixelmon: Adjustments.
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="pixelmonadjustments"
+version="9.3.16.x.1"
+displayName="Pixelmon: Adjustments"
+authors="CCDelic"
+description='''
+Quality-of-life adjustments for Pixelmon.
+'''
+
+[[dependencies.pixelmonadjustments]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.172,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelmonadjustments]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+# Load after Pixelmon so this mod can safely read Pixelmon APIs and apply mixins to it.
+[[dependencies.pixelmonadjustments]]
+modId="pixelmon"
+type="required"
+versionRange="[9.0,)"
+ordering="AFTER"
+side="BOTH"
+
+# Mixin configuration.
+[[mixins]]
+config="pixelmonadjustments.mixins.json"
