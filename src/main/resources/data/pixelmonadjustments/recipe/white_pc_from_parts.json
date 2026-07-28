@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        { "item": "pixelmonadjustments:pc_part" },
+        { "item": "pixelmonadjustments:pc_part" },
+        { "item": "pixelmonadjustments:pc_part" }
+    ],
+    "result": {
+        "id": "pixelmon:white_pc",
+        "count": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "pixelmonadjustments:wooden_button_recipes_enabled"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "group": "poke_ball",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "pixelmon:pokeball_bases"
+    },
+    {
+      "tag": "minecraft:wooden_buttons"
+    },
+    {
+      "type": "neoforge:components",
+      "items": "pixelmon:poke_ball_lid",
+      "components": {
+        "pixelmon:poke_ball": "safari_ball"
+      },
+      "strict": true
+    }
+  ],
+  "result": {
+    "id": "pixelmon:poke_ball",
+    "components": {
+      "pixelmon:poke_ball": "safari_ball"
+    },
+    "count": 1
+  }
+}

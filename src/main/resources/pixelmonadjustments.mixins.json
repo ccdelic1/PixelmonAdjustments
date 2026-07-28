@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.ccdelic.tweaks.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "FlatDistinctAlgorithmMixin",
+        "OpenShopInteractionResultMixin",
+        "SpawnActionPokemonMixin",
+        "SpawnConditionMixin",
+        "SpawnInfoPokemonMixin",
+        "SpawningStrategyMixin",
+        "VillagerReplacementLogicMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

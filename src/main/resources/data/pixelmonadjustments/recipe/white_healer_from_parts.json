@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        { "item": "pixelmonadjustments:healer_part" },
+        { "item": "pixelmonadjustments:healer_part" },
+        { "item": "pixelmonadjustments:healer_part" }
+    ],
+    "result": {
+        "id": "pixelmon:white_healer",
+        "count": 1
+    }
+}
